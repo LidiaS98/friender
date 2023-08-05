@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up | Friender ™</title>
+    <link rel="shortcut icon" href="/images/friends.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card-container slideUp-animation">
+      <div class="image-container">
+        <h1 class="company">Friender <sup>&trade;</sup></h1>
+        <img
+          src="images/Accept request-rafiki.png"
+          class="illustration"
+          alt=""
+        />
+      </div>
+      <form action="">
+        <div class="form-container slideRight-animation">
+          <h1 class="form-header">Let's do this!</h1>
+
+          <div class="input-container">
+            <input type="text" id="f-name" required />
+            <span>First Name</span>
+            <div class="error"></div>
+          </div>
+          <div class="input-container">
+            <input type="text" id="l-name" required />
+            <span>Last Name</span>
+            <div class="error"></div>
+          </div>
+          <div class="input-container">
+            <input type="email" id="mail" required />
+            <span>E-mail</span>
+            <div class="error"></div>
+          </div>
+          <div class="input-container">
+            <input type="tel" id="phone" required />
+            <span>Phone</span>
+            <div class="error"></div>
+          </div>
+          <div class="input-container">
+            <input type="password" id="user-password" required />
+            <span>Password</span>
+            <div class="error"></div>
+          </div>
+          <div class="input-container">
+            <input type="password" id="user-password-confirm" required />
+            <span>Confirm Password</span>
+            <div class="error"></div>
+          </div>
+          <div id="btm">
+            <button type="submit" class="submit-btn">Create Account</button>
+            <p class="btm-text">
+              Already have an account..?
+              <span class="btm-text-highlighted"> Log in</span>
+            </p>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
